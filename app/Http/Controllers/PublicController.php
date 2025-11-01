@@ -66,5 +66,12 @@ class PublicController extends Controller
         return view('Profilo');
     }
 
+
+
+    public function Posts() {
+        return view('Posts');
+    }
+    
+
     
 }

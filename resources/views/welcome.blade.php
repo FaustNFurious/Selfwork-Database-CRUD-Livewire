@@ -5,7 +5,7 @@
 
     <header>
 
-      <div class="container-fluid header-custom ">
+      <div class="container-fluid header-custom">
 
         @if (session()->has('email-inviata'))
           <div class="alert alert-secondary my-5">
@@ -37,9 +37,21 @@
             <h1 class="text-light text-center display-1 fw-bold">Blog Personale</h1>
           </div>
         </div>
+
       </div>
 
     </header>
+
+    
+    
+
+      <div class="container-fluid header-custom">
+
+        <div class="row align-items-center text-center text-white justify-content-center">
+          <livewire:counter />
+        </div>
+
+      </div>
 
     
 

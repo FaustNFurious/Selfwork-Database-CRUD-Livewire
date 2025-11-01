@@ -24,6 +24,10 @@
                     <a class="nav-link active" href="{{route('services.ServicesList')}}">Servizi</a>
                 </li>
 
+                <li class="nav-item">
+                    <a class="nav-link active" href="{{route('Posts')}}">Tutti i Post</a>
+                </li>
+
                 <li class="nav-item dropdown">
 
                     <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">

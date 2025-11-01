@@ -21,9 +21,9 @@
             
             @empty
 
-                <div class="col-12 col-md-5 my-5">
+                <div class="col-12 col-md-5 my-5 d-flex flex-column align-items-center p-5 border border-3 border-warning rounded-5">
                     <h3 class="text-center">Nessun prodotto associato a questa tipologia</h3>
-                    <a href="{{route('services.ServicesCreation')}}" class="btn btn-outline-warning">Inseriscilo tu adesso!</a>
+                    <a href="{{route('services.ServicesCreation')}}" class="btn btn-outline-warning my-2">Inseriscilo tu adesso!</a>
                 </div>
 
             @endforelse

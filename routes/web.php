@@ -87,3 +87,9 @@ Route::get('/Tipologie/creazione', [TypeController::class, 'typesCreate'])->name
 Route::post('/Tipologie/creazione/submit', [TypeController::class, 'typesStore'])->name('type.Submit');
 route::get('/Tipologie/index', [TypeController::class, 'typesIndex'])->name('type.Index');
 Route::get('/Tipologie/list/{type}', [TypeController::class, 'typesList'])->name('type.List');
+
+
+
+
+// Post Route for testing
+Route::get('/Posts', [PublicController::class, 'Posts'])->name('Posts');
