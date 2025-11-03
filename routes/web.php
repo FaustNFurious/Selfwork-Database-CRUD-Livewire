@@ -21,6 +21,7 @@ use App\Http\Controllers\TypeController;
 
 
 
+
 /* Link Pagine Home */
 Route::get('/', [PublicController::class, 'home'])->name('Home');
 
