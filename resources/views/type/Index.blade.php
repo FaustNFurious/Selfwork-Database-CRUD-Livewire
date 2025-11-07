@@ -3,7 +3,7 @@
 
 
 
-    <div class="container-fluid bg-black text-white min-vh-100 pt-5">
+    <div class="container-fluid bg-black text-white min-vh-100">
 
         <div class="row my-5">
 

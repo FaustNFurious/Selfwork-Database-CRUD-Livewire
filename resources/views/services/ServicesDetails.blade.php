@@ -37,15 +37,9 @@
                 @auth
                     <!-- Il pulsante viene mostrato solo se l'utente è autenticato ed è stato lui a creare il prodotto -->
                     @if ($computer->user_id == Auth::id())
-                        <div class="row">
+                        <div class="col-12">
 
-                            <form action="{{route('services.ServicesDelete', compact('computer'))}}" method="POST">
-                                @csrf
-                                @method('DELETE')
-
-                                <button class="btn btn-danger my-5" type="submit">Cancella Prodotto</button>
-
-                            </form>
+                            <livewire:services-delete :service="$computer"/>
 
                         </div>
                     @endif
